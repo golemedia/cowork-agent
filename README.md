@@ -62,7 +62,9 @@ In Claude's Cowork mode, create a new project and select the folder you just clo
 
 ### 3. Set up the Instructions field
 
-Open `meta/cowork-instructions-field.md` and paste its contents into the Cowork project's **Instructions** field. Replace `[AGENT_NAME]` with your agent's name.
+Open `meta/cowork-instructions-field.md` and paste its contents into the Cowork project's **Instructions** field. The only manual edit required: replace `[AGENT_NAME]` in that text with your agent's name, so the first bootstrap message addresses the agent correctly.
+
+You do not need to edit `CLAUDE.md` directly. The agent handles that.
 
 ### 4. Start the session — the agent does the rest
 
